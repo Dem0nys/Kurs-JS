@@ -1,0 +1,34 @@
+body{
+    width:100%;
+    height: 100%;
+    background-color: gray;
+}
+html{
+    height: 100%;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color:gray;
+  }
+#input{
+      width: 200px;
+      margin-right: 70px;
+      margin-bottom:20px;
+  }
+.gh {
+    border:1px;
+    border-color:black;
+}
+tr:hover {
+    cursor:pointer;
+}
+tr {
+    font-size:20px;
+    text-align: center;
+}
+td {
+    text-align:center;
+}
+
